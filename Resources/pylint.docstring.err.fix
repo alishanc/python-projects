@@ -1,0 +1,11 @@
+Edit user settings
+find 'pylint'
+
+Add following code into 'pylint args'
+
+"python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--errors-only",
+        "--disable=C0111"
+    ]
+
