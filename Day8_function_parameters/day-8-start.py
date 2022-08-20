@@ -5,7 +5,8 @@ def greet_with(name, location):
     print(f"Hello {name}")
     print(f"What's it like in {location}?")
 
-greet_with(name = "Ali", location = "Franklin")
+
+greet_with(name="Ali", location="Franklin")
 
 
 # Functions with inputs
@@ -13,10 +14,9 @@ greet_with(name = "Ali", location = "Franklin")
 # def greet_with_name(name):
 #     print(f"Hello {name}")
 #     print(f"How are you {name}?")
-    
+
 # #              (argument)
 # greet_with_name("Ali")
-
 
 
 # Simple function
