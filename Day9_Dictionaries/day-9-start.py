@@ -1,6 +1,6 @@
 programming_dictionary = {
-     "Bug": "An error in a program that prevents the program from running as expected.", "Function": "A piece of code that you can easily call over and over again.",
-  123: "1, 2, 3"
+    "Bug": "An error in a program that prevents the program from running as expected.", "Function": "A piece of code that you can easily call over and over again.",
+    123: "1, 2, 3"
 }
 """
 Use proper formatting, indents etc similar to json structure
@@ -30,5 +30,3 @@ Value types important i.e. "Strings" or diff  variable definitions
 for key in programming_dictionary:
     print(key)
     print(programming_dictionary[key])
-
-
