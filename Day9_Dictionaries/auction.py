@@ -10,7 +10,7 @@ auction_list = {}
 def add_bids():
     bidder = input("What is the bidder's name?\n")
     price = int(input("Place your bid\n"))
-    auction_list[bidder] = price
+    auction_list[bidder] = price # bidder = key | price = value
     if input("Are there others?\n") == "yes":
         os.system('cls')
         add_bids()
