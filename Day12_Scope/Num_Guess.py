@@ -15,7 +15,6 @@ def check_answer(guess, answer, turns):
     else:
         print(f"You got it! The answer was {answer}")
 
-
 def set_difficulty():
     level = input("Choose a difficulty. Type 'easy' or 'hard': ")
     if level == 'easy':
@@ -33,7 +32,6 @@ def game():
     while guess != answer:
         print(f"You have {turns} attempts remaining to guess the number.")
         guess = int(input("Guess a number between 1 and 100: "))
-
         turns = check_answer(guess, answer, turns)
         if turns == 0:
             print("Out of guesses. You lose!")
