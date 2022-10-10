@@ -26,7 +26,6 @@ def game():
     print(logo)
     print("Welcome to the Number Guessing Game!")
     answer = randint(1, 100)
-    
     turns = set_difficulty()
     guess = 0
     while guess != answer:
