@@ -33,6 +33,7 @@ resources = {
 
 
 # TODO: 1. Print a report of all coffee machine resources
+# TODO: 2. Check resources sufficient to make drink order
 # control + shift to multi line select and insert instead of copy pasting
 
 def is_resource_sufficient(order_ingredients):
